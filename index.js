@@ -5,45 +5,50 @@ const questions = [];
 
 const inquire = require("inquirer");
 const fs = require("fs");
+const markdown = require("./utils/generateMarkdown.js");
 
-inquirer
+inquire
   .prompt([
     {
       type: "input",
-      message: "questionONe",
-      name: "var1",
+      message: "what is your project's title?",
+      name: "title",
     },
     {
       type: "input",
-      message: "question2?",
-      name: "var2",
+      message: "please describe your project",
+      name: "description",
+    },
+    {
+      type: "input",
+      message: "what are the installation instructions?",
+      name: "installation",
     },
     {
       type: "list",
-      message: "question3?",
-      name: "var3",
-      choices: ["x", "y", "z"],
+      message: "what is the license information?",
+      name: "badges",
+      choices: ["MIT", "Apache 2.0", "Creative Commons"],
     },
     {
       type: "input",
-      message: "question4?",
-      name: "var4",
+      message: "what are the contribution guidelines?",
+      name: "guidelines",
+    },
+    {
+      type: "input",
+      message: "what are the test instructions?",
+      name: "testing",
     },
   ])
   .then((response) => {
-    console.log(
-      "Your logo will be ",
-      response.text,
-      response.textColor,
-      response.shape,
-      response.shapeColor,
-      "!"
-    );
     writeToFile(response);
   });
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(data) {
+  console.log(markdown(data));
+}
 
 // TODO: Create a function to initialize app
 function init() {}
