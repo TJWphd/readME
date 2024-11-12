@@ -119,4 +119,4 @@ You are required to submit the following for review:
 ## acknowledgements
 
 John Young, Zac Warner: educational team at edx/UCB FS Bootcamp
-Alex Mena: classmate who helped me ask questions (literally)
+Alex Mena: classmate who helped me build the inquire function in JS
