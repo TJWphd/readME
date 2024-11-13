@@ -44,8 +44,8 @@ function generateMarkdown(data) {
   
   ## License Information
   
-  ${renderLicenseLink(data.link)}
-  ${renderLicenseSection(data.section)}
+  ${renderLicenseLink(data.badges)}
+  ${renderLicenseSection(data.badges)}
 
   ## Contribution Guidelines
   
@@ -57,4 +57,4 @@ function generateMarkdown(data) {
 `;
 }
 
-// module.exports = generateMarkdown;
+module.exports = generateMarkdown;
