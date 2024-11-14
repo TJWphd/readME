@@ -36,6 +36,16 @@ const questions = [
     message: "what are the test instructions?",
     name: "testing",
   },
+  {
+    type: "input",
+    message: "what is your GitHub username?",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "what is your email address?",
+    name: "email",
+  },
 ];
 
 // Create a function to write README file
@@ -55,7 +65,7 @@ function init() {
     console.log("Responses from Inquirer:", response);
     const generated = markdown(response);
     console.log("Generated Markdown:", generated);
-    writeToFile("README.md", generated);
+    writeToFile("./output/README.md", generated);
   });
 }
 // Function call to initialize app

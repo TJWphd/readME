@@ -1,21 +1,39 @@
-# Read me maker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  ## Description
-  
-  frf
-  
-  ## Installation Instructions
-  
-  fr
-  
-  ## License Information
-  
-  https://opensource.org/license/MIT
-  Copyright 2024 'your name here'. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# Readme Generator [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)#
 
-  ## Contribution Guidelines
-  
-  frf
-  
-  ## Testing Instructions
-  
-  fr
+# Table of Contents
+
+- [Description](#description)
+- [Deployment](#deployment)
+- [License](#license)
+- [Guidelines](#guidelines)
+- [Testing](#testing)
+- [Contact](#contact)
+
+## Description
+
+generates readmes for busy developers
+
+## Deployment
+
+Video:
+https://drive.google.com/file/d/1bdyt77RYSsvwVzfY6aEgTA6xLXnFlBhF/view
+Instructions:
+navigate to terminal, navigate to folder, r npm i, then node index.js
+
+## License
+
+https://creativecommons.org/publicdomain/zero/1.0/
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.
+
+## Guidelines
+
+enter answers to prompts
+
+## Testing
+
+manual testing
+
+## Contact
+
+[Github Profile](https://github.com/TJWphd)
+[Email](mailto:tjwhitephd@gmail.com)
